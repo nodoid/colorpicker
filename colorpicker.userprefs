@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{F782A06E-C6B2-4F60-BA60-F91058B4722D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="colorpicker/colorpicker.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="colorpicker/Views/ColPicker.cs">
     <Files>
-      <File FileName="colorpicker/Views/ColPicker.cs" Line="16" Column="9" />
+      <File FileName="colorpicker/Views/ColPicker.cs" Line="2" Column="21" />
       <File FileName="colorpicker/colorpicker.cs" Line="15" Column="9" />
     </Files>
     <Pads>
@@ -10,10 +10,9 @@
           <Node name="colorpicker" expanded="True">
             <Node name="colorpicker" expanded="True">
               <Node name="Views" expanded="True" />
-              <Node name="colorpicker.cs" selected="True" />
             </Node>
             <Node name="colorpicker.Droid" expanded="True" />
-            <Node name="colorpicker.iOS" expanded="True" />
+            <Node name="colorpicker.iOS" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>

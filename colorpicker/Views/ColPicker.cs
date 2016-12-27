@@ -1,6 +1,5 @@
 ﻿
 using Xamarin.Forms;
-using System.Threading;
 
 namespace colorpicker
 {
@@ -87,7 +86,7 @@ namespace colorpicker
                 red = e.NewValue * 255;
                 lblRed.Text = red.ToString("##.##");
                 lblHex.Text = ConvertToHex(red, green, blue, opacity);
-                colorBox.Color = Color.FromRgba(realRed, realGreen, realBlue, realOpacity);
+                Device.BeginInvokeOnMainThread(() => colorBox.Color = Color.FromRgba(realRed, realGreen, realBlue, realOpacity));
             };
 
             greenSlider.ValueChanged += (object sender, ValueChangedEventArgs e) =>
@@ -96,7 +95,7 @@ namespace colorpicker
                 green = e.NewValue * 255;
                 lblGreen.Text = green.ToString("##.##");
                 lblHex.Text = ConvertToHex(red, green, blue, opacity);
-                colorBox.Color = Color.FromRgba(realRed, realGreen, realBlue, realOpacity);
+                Device.BeginInvokeOnMainThread(() => colorBox.Color = Color.FromRgba(realRed, realGreen, realBlue, realOpacity));
             };
 
             blueSlider.ValueChanged += (object sender, ValueChangedEventArgs e) =>
@@ -114,7 +113,7 @@ namespace colorpicker
                 opacity = e.NewValue * 255;
                 lblOpacity.Text = opacity.ToString("##.##");
                 lblHex.Text = ConvertToHex(red, green, blue, opacity);
-                colorBox.Color = Color.FromRgba(realRed, realGreen, realBlue, realOpacity);
+                Device.BeginInvokeOnMainThread(() => colorBox.Color = Color.FromRgba(realRed, realGreen, realBlue, realOpacity));
             };
 
             Content = new StackLayout
