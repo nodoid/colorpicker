@@ -1,0 +1,8 @@
+packages/*
+colorpicker/bin/*
+colorpicker/obj/*
+Droid/bin/*
+Droid/obj/*
+iOS/bin/*
+iOS/obj/*
+

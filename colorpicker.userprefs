@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{F782A06E-C6B2-4F60-BA60-F91058B4722D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="colorpicker/colorpicker.cs">
+    <Files>
+      <File FileName="colorpicker/Views/ColPicker.cs" Line="16" Column="9" />
+      <File FileName="colorpicker/colorpicker.cs" Line="15" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="colorpicker" expanded="True">
+            <Node name="colorpicker" expanded="True">
+              <Node name="Views" expanded="True" />
+              <Node name="colorpicker.cs" selected="True" />
+            </Node>
+            <Node name="colorpicker.Droid" expanded="True" />
+            <Node name="colorpicker.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.colorpicker.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31C581D1-1DDA-4985-A517-430063DB33CC" />
+  <MonoDevelop.Ide.ItemProperties.colorpicker.Droid PreferredExecutionTarget="Android.192.168.66.101:5555" />
+</Properties>
