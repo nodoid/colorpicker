@@ -4,25 +4,13 @@
       <File FileName="colorpicker/Views/ColPicker.cs" Line="2" Column="21" />
       <File FileName="colorpicker/colorpicker.cs" Line="15" Column="9" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="colorpicker" expanded="True">
-            <Node name="colorpicker" expanded="True">
-              <Node name="Views" expanded="True" />
-            </Node>
-            <Node name="colorpicker.Droid" expanded="True" />
-            <Node name="colorpicker.iOS" expanded="True" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.colorpicker.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.31C581D1-1DDA-4985-A517-430063DB33CC" />
+  <MonoDevelop.Ide.ItemProperties.colorpicker.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.F97C13ED-652C-4306-BAEA-6A12B0F0D2AE" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.colorpicker.Droid PreferredExecutionTarget="Android.192.168.66.101:5555" />
 </Properties>
